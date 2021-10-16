@@ -6,6 +6,6 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=password
     volumes:
-      - ./data:/var/lib/mysql
+      - ./volume/data:/var/lib/mysql
     network_mode: host
     restart: always
